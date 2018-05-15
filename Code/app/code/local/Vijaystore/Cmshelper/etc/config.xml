@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Vijaystore_Cmshelper>
+			<version>1.0.0</version>
+		</Vijaystore_Cmshelper>
+	</modules>
+	<global>
+		<models>
+			<cmshelper>
+				<class>Vijaystore_Cmshelper_Model</class>
+			</cmshelper>
+		</models>
+		
+		<helpers>
+			<cmshelper>
+				<class>Vijaystore_Cmshelper_Helper</class>
+			</cmshelper>
+		</helpers>
+
+		<cms>
+			<page>
+				<tempate_filter>cmshelper/template_filter</tempate_filter>
+			</page>
+			<block>
+				<tempate_filter>cmshelper/template_filter</tempate_filter>
+			</block>
+		</cms>
+	</global>
+</config>
