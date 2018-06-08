@@ -12,7 +12,7 @@
 			</cmshelper>
 			<catalog>
 				<rewrite>
-					<template_filter>LWM_Cmshelper_Model_Catalog_Template_Filter</template_filter>
+					<template_filter>Vijaystore_Cmshelper_Model_Catalog_Template_Filter</template_filter>
 				</rewrite>
 			</catalog>
 		</models>
