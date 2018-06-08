@@ -1,5 +1,5 @@
 <?php
-class LWM_Cmshelper_Model_Catalog_Template_Filter extends Mage_Catalog_Model_Template_Filter
+class Vijaystore_Cmshelper_Model_Catalog_Template_Filter extends Mage_Catalog_Model_Template_Filter
 {
 	public function helperDirective($construction)
 	{
